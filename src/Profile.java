@@ -39,7 +39,7 @@ public class Profile extends javax.swing.JFrame {
         jLabel2.setForeground(new java.awt.Color(153, 0, 255));
         jLabel2.setText("Adrian Dave A, Escudero");
 
-        exit.setIcon(new javax.swing.ImageIcon("C:\\Users\\User\\Downloads\\exit.png")); // NOI18N
+        exit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/exit.png"))); // NOI18N
         exit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 exitActionPerformed(evt);
