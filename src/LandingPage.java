@@ -254,7 +254,11 @@ public class LandingPage extends javax.swing.JFrame {
 
         } else if (user.length() <= 3 || pass.length() <= 3) {
             JOptionPane.showMessageDialog(this, "User and Pass cannot less that 3", "Invalid", JOptionPane.INFORMATION_MESSAGE);
-        } 
+        } else {
+            MainPage mainPage = new MainPage();
+            mainPage.setVisible(true);
+            this.dispose();
+        }
         
         
         
